@@ -2,8 +2,7 @@ require 'formula'
 
 class Gyp < Formula
   homepage 'http://code.google.com/p/gyp/'
-  head 'http://gyp.googlecode.com/svn/trunk'
-
+  head 'http://gyp.googlecode.com/svn/trunk', :revision => '1666'
   depends_on 'scons'
 
   def install
